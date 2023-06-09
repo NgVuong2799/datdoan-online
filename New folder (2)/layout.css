@@ -1,0 +1,143 @@
+*{padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+body{
+    background-image: url(backgrouimage.png);
+}
+#navbar{
+    background-color: #33ffff;
+    display: flex;
+    width:100%;
+    height: 60px;    
+}
+.navbar-contenc{
+    width:15%;
+    height:60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-contenc a:hover{
+    color:black;
+}
+.navbar-contenc a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+#searchbar{
+    display: flex;
+    width:23%;
+    margin-top: 20px;
+    height:25px;
+}
+.Slides {display: none}
+img {vertical-align: middle;}
+.slide{
+    max-width: 75%;
+  position: relative;
+  margin: auto;
+  height:400px;
+  margin-top: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.next {
+    border-radius: 3px 0 0 3px;
+    right:0;
+}
+.container{
+    margin: 0;
+    position: absolute;
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.garery{
+    width: 100%;
+    height:auto;
+    display: block;
+    align-items: center;
+    margin-left: 10%;
+}
+.garery-container{float: left;
+    width:300px;
+    margin-left:70px;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+.monanimage{
+    width:300px;
+    height: 300px;
+}
+.pagenumber {
+    display: inline-block;
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagenumber a {
+    margin-top:5px;
+    color: black;
+    float: none;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagenumber a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagenumber a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+footer{width: 100%;
+    float: right;
+    margin-top: 20px;
+    background-color: black;
+    color:azure;
+}
+.diachi{width: 50%;
+    float:right;
+}
+.contarc{
+    width:50%;
+    float: left;
+}
